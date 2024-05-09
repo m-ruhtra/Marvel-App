@@ -1,9 +1,10 @@
 .container{
     display: flex;
-
+    
     &.loginPage{
         flex-direction: row;
-
+        
+        width: 100vw;
         height: 100vh;
     }
 }
