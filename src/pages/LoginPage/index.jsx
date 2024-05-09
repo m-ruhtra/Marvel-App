@@ -1,4 +1,5 @@
 import backgroundLogin from "../../assets/backgroundLogin.jpg";
+import { LoginForm } from "../../components/Forms/LoginForm";
 import styles from "./style.module.scss";
 
 export const LoginPage = () => {
@@ -10,9 +11,11 @@ export const LoginPage = () => {
 
                     <p className="text">A ação mais perto de você!</p>
 
-                    <form action="">
-                        <input type="text" />
-                    </form>
+                    <LoginForm />
+
+                    <span className="text span">
+                        Em buscar de aventuras? <a href="#">Registre-se</a>
+                    </span>
                 </div>
                 
                 <img id="backgoundLogin" src={backgroundLogin} alt="Background image" />

@@ -17,4 +17,18 @@
     font-weight: 500;
     font-size: 1.35rem;
     color: var(--color-white);
+
+    &.label{
+        font-size: .9rem;
+    }
+
+    &.span{
+        font-size: .77rem;
+        font-weight: 400;
+        text-decoration: none;
+
+        a{
+            color: var(--color-grey);
+        }
+    }
 }

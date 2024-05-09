@@ -1,0 +1,23 @@
+%buttonDefaults {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-family: var(--font-primary);
+    font-weight: 500;
+}
+
+.btn{
+    @extend %buttonDefaults;
+    width: 100%;
+    
+    font-size: 1.5rem;
+    color: var(--color-black);
+
+    // border-radius: 8px;
+    background-color: var(--color-redMarvel);
+
+    &:hover{
+        color: var(--color-white);
+    }
+}
