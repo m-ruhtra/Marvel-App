@@ -1,5 +1,14 @@
 .container{
+    width: 100%;
     display: flex;
+
+    &.header{
+        height: 12%;
+
+        position: fixed;
+
+        box-shadow: 0px 1px 10px var(--color-redMarvel);
+    }
     
     &.loginPage{
         flex-direction: row;
@@ -29,5 +38,4 @@
         
         gap: .70rem;
     }
-
 }
