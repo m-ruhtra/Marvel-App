@@ -6,7 +6,7 @@ export const LoginPage = () => {
             <img src={backgroundLogin} alt="Background image" />
 
             <div>
-                
+
             </div>
         </div>
     )
